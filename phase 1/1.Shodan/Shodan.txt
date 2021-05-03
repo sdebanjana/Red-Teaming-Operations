@@ -1,0 +1,3 @@
+We have searched learnaboutsecurity.com on a website named SHODAN. The address of this website is - https://www.shodan.io/.
+It is a website where we can find information about vulnerable websites.
+The search result is showing information about learnaboutsecurity.com and it is shown in the screenshot.

@@ -1,0 +1,35 @@
+Command Used: dig Learnaboutsecurity.com txt
+This command is used to read Domain txt records. One authoritative server responded to our query. From this query, we have also got the admin email address, awsdns-hostmaster.amazon.com
+
+Command Used: dig Learnaboutsecurity.com cname 
+We have received the same result as txt. 
+
+Command Used: dig Learnaboutsecurity.com any
+From this command we have received a lot of DNS information. From the any command, we can manage all available DNS information like email, IP address and server. 
+
+We have also got the IP mapping from this command and 4 nameserver.
+
+nslookup:
+I have also used nslookup and got the IP address of the website.
+Command used: 
+nslookup 
+set type=a 
+Learnaboutsecurity.com
+
+nslookup 
+set type=ns 
+learnaboutsecurity.com
+
+nslookup 
+set type=mx 
+learnaboutsecurity.com
+
+nslookup 
+set type=cname
+learnaboutsecurity.com
+
+set type=a, is used for all available information.
+set type=ns, is used for finding nameserver.
+set type=mx, is used for finding mail exchanger. 
+set type=cname, is used for finding canonical names.
+ 

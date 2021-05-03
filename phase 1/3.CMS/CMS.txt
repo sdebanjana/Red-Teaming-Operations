@@ -1,0 +1,21 @@
+For content management system, we have used some command software and website.
+Whatweb:
+
+What we is mainly used for finding information about Content Management System(CMS)
+WhatWeb supports an aggression level to control the trade off between speed and reliability
+
+Command used: whatweb leanaboutsecurity.com
+
+Result: From the command we have got, web server(github), IP address of the website and it is : 189.199.109.153
+
+Netcraft:
+Another process we have used was, using a website to find CMS information. The website we have used is Netcraft(netcraft.com). After entering the address of our targeted website,we have managed some CMS information.
+
+Managed information: 
+Hosting Company- Github
+Hosting Country- US
+Nameserver- ns-1276.awsdns-31.org
+Nameserver Organization- whols.pir.org
+DNS admin - awdns-hostmaster@amazon.com
+Domain Register- amazon.com
+Technology used- javascript
