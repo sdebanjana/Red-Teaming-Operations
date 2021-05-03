@@ -1,0 +1,31 @@
+We used msfconsole to search for xampp vulnerabilities.
+
+Command used: msfconsole
+
+	      search xampp
+	      
+	      show options
+
+xampp is a vulnerable software in the virtual machine. From the options, many information received from xampp, password, rhosts, rport, username.
+
+Also run a scan on the open ports
+
+Command Used: 
+nmap --script vuln -sV 10.1.0.7
+nmap --script vuln -sV 10.1.0.8
+nmap --script vuln -sV 10.1.0.11
+nmap --script vuln -sV 10.1.0.12
+
+Explanation:
+-sV is used for service version detection.
+--script is used for accessing nmap local database.
+vuln is used for scanning vulnerabilities.
+
+Marking:
+Vulnerablities from my findings are marked in RED box in the output Screenshot.
+
+
+
+
+
+ 

@@ -1,0 +1,23 @@
+For scanning athea internal netawork, nmap is being used.
+
+Server IP: 10.1.2.5
+
+this is the internal win10 network's IP
+
+Command used: nmap -A 10.1.2.5/24
+
+Scanning result: 
+This query is showing port information, it is open or closed, mail server information, Apache, Xampp information, open port information, sccaning information about open ports.
+
+Server IP: 10.1.0.0
+dmziserver
+
+Command Uses: namap -A 10.1.0.0/24
+
+Scanning result: OS information, ssh information, open port information, apache, scanned information about open ports.
+
+Explanation:
+-A is used for any kind of information.
+
+
+

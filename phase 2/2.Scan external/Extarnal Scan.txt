@@ -1,0 +1,28 @@
+Used Learnaboutseurity.com as a external website.
+
+IP Address: 185.199.108.153
+
+Command used: 
+	      nmap -A 185.199.108.153
+
+Result:  there are two vulnerabke varsnish application
+80/tcp open http-proxy Varnish
+443/tcp open ssl/https Varnish
+
+Command used: nmap -sV 185.199.108.153
+Result: there are two vulnerabke varsnish application
+80/tcp open http-proxy Varnish
+443/tcp open ssl/https Github.com
+
+Additional command:
+netdiscover
+
+traceroute -I Learnaboutsecurity.com
+
+nmap Learnaboutsecurity.com
+
+Explanation:
+-A is used for any kind of information.
+-sV is used for service version detection.
+
+					
