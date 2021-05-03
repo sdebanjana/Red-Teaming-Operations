@@ -1,0 +1,18 @@
+For receiving sessetive data, used- dirb, wget
+The credentials we have used are stored in plain text.
+
+Command used:
+dirb http://10.1.0.7 '/usr/share/wordlists/udacity.txt'
+wget http://10.1.0.7/.git/keys.txt
+cat keys.txt
+cb wp-file-manager-CVE-2020-25213
+./wp-file-manager-exploit.sh --wp_url https://learnaboutsecurity.com/ --check
+
+Information Received: wordlists, git repository, list of passwords.
+
+
+
+Wordpress plugin is a weakness that often overlooked.
+
+Some vulnerablities are overlooked because of WP plugin, and followed by the lessons. I have tried to find the weakness by using nmap, which is shhowing in the "Exploitable" folder which is shown in the images.	
+
